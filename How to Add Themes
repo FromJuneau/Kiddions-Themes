@@ -1,0 +1,52 @@
+To add the themes in this repository you simply add them to the Themes file.
+
+Step-by-step tutorial coming up:
+
+1. Open up the map in which your Modest Menu launcher is in along with all other Modest Menu files.
+
+2. Open the .txt file called Themes.
+
+3. Scroll to the bottom.
+
+4. When you are at the bottom keep the ] and } symbols below the theme 'code' lines.
+
+5. After the line  
+"ItemSpacing" : 0
+add a comma (,) behind the }
+
+6. Copy and paste the whole theme 'code' you want to use.
+
+It should look like this if it goes successfully and it's been added at the bottom of all other theme
+
+    {
+      "Name" : "Callamastia",
+      "FontName" : "DejaVu",
+      "ItemColor" : "0D0C1E",
+      "TextColor" : "ffffff",
+      "SelectedItemColor" : "87286D",
+      "SelectedTextColor" : "ffffff",
+      "BackgroundColor" : "0c081b",
+      "TransparencyColorKey" : "000000",
+      "ItemHeight" : 20,
+      "ItemWidth" : 340,
+      "ItemSpacing" : 0
+    },
+    {
+      "Name" : "Juneau",
+      "FontName" : "DejaVu",
+      "ItemColor" : "014d41",
+      "TextColor" : "ffffff",
+      "SelectedItemColor" : "0ba779",
+      "SelectedTextColor" : "ffffff",
+      "BackgroundColor" : "004b5e",
+      "TransparencyColorKey" : "000000",
+      "ItemHeight" : 20,
+      "ItemWidth" : 340,
+      "ItemSpacing" : 0
+    }
+  ]
+}
+
+Note: the 2 symbols on line 47 and 48 close the themes folder and shoul not be altered.
+
+If your theme order looks like this at the bottom and you already launched the menu just reload the themes in the settings area and select + save confid afterwards.
